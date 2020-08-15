@@ -26,3 +26,10 @@ Adds a modified file to a commit.
 % git add Git.md
 ```
 
+### Commit
+
+Dedicate to a logical unit of work. In other words, when you have completed writing the code for one step of what you're doing, commit to save your progress for later use.
+
+```bash
+% git commit -m "Message"
+```
