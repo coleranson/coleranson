@@ -63,3 +63,28 @@ Grabs commits from remote (GitHub)
 ```bash
 % git pull
 ```
+
+### Branch
+
+Create a new area for work to be committed.
+
+#### To create a branch:
+
+```bash
+% git checkout -b my-branch-name # create branch on local
+% git push -u # push branch to remote
+```
+#### To see all branches:
+
+```bash
+% git branch -a
+```
+
+#### To remove a branch after merging:
+
+```bash
+% git checkout master # leave the branch and go back to master
+% git fetch -p # tells git what changed on the remote, deletes remote branches that don't exist anymore
+% git pull # pull in the merged changes from the branch
+% git branch -d my-merged-branch # deletes the merged branch if OK, -D to delete regardless if safe
+```
