@@ -20,9 +20,9 @@ Shows you the current status of the project. It shows modified tracked and untra
 
 ### Add
 
-Answer here.
+Adds a modified file to a commit.
 
 ```bash
-$ example here
+% git add Git.md
 ```
 
