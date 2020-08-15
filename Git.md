@@ -8,6 +8,12 @@ Git is a version control system. It is a protocol. A protocol means that it inte
 
 Website used for hosting git projects. it is a place where projects live. Without it you wouldn't have your projects.
 
+## What are Git Hosting Site Examples?
+
+* GitHub
+* GitLab
+* BitBucket 
+
 ## Git Commands
 
 ### Status
@@ -32,4 +38,28 @@ Dedicate to a logical unit of work. In other words, when you have completed writ
 
 ```bash
 % git commit -m "Message"
+```
+
+### Push
+
+Takes changes from local computer and moves them to remote computer (GitHub).
+
+```bash
+% git push
+```
+
+### Diff
+
+Shows changes in modified files.
+
+```bash
+% git diff Git.md
+```
+
+### Pull
+
+Grabs commits from remote (GitHub) 
+
+```bash
+% git pull
 ```
